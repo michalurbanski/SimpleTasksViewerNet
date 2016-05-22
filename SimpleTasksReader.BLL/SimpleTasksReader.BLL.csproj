@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="CustomAction.cs" />
     <Compile Include="Day.cs" />
+    <Compile Include="Models\Week.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
