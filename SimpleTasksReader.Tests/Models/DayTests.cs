@@ -1,19 +1,18 @@
-﻿using NUnit.Framework;
+﻿using Xunit; 
 using SimpleTasksReader.BLL;
 
 namespace SimpleTasksReader.Tests.Models
 {
-    [TestFixture]
     public class DayTests
     {
-        [Test]
+        [Fact]
         public void Test_Add_Action_To_Day()
         {
             Day day = new Day();
-            CustomAction customAction = new CustomAction(); 
+            CustomAction customAction = new CustomAction();
             day.AddAction(customAction);
 
-            Assert.AreEqual(1, day.CustomActions.Count);
+            Assert.Equal<int>(1, day.CustomActions.Count);
         }
     }
 }

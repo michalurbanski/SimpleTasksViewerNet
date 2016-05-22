@@ -1,14 +1,13 @@
-﻿using NUnit.Framework;
+﻿using Xunit; 
 
 namespace SimpleTasksReader.Tests
 {
-    [TestFixture]
     public class Test
     {
-        [Test]
+        [Fact]
         public void Test_NUnit()
         {
-            Assert.True(true); 
+            Assert.True(true);
         }
     }
 }
