@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace SimpleTasksReader.BLL.Models
 {
@@ -18,6 +19,11 @@ namespace SimpleTasksReader.BLL.Models
 
         public void AddDay(Day day)
         {
+            if(Days.Count == 7)
+            {
+                throw new InvalidOperationException("Week can have only up to 7 days");
+            }
+
             Days.Add(day);
         }
     }
