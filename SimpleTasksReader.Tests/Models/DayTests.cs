@@ -6,10 +6,12 @@ namespace SimpleTasksReader.Tests.Models
 {
     public class DayTests
     {
+        private const string DAY_NAME = "Monday 2016-05-01";
+
         [Fact]
         public void Test_Add_Action_To_Day()
         {
-            Day day = new Day("Monday 2016-05-01");
+            Day day = new Day(DAY_NAME);
             CustomAction customAction = new CustomAction();
             day.AddAction(customAction);
 
@@ -19,8 +21,7 @@ namespace SimpleTasksReader.Tests.Models
         [Fact]
         public void Test_Day_Has_Name_And_Date()
         {
-            string dayEntry = "Monday 2016-05-01";
-            Day day = new Day(dayEntry);
+            Day day = new Day(DAY_NAME);
 
             Assert.Equal("Monday", day.Name);
             Assert.Equal(new DateTime(2016, 5, 1), day.Date);
