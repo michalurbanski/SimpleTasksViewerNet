@@ -40,8 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CustomAction.cs" />
-    <Compile Include="Day.cs" />
+    <Compile Include="Models\CustomAction.cs" />
+    <Compile Include="Models\Day.cs" />
     <Compile Include="Models\Week.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Globalization;
 
-namespace SimpleTasksReader.BLL
+namespace SimpleTasksReader.BLL.Models
 {
     /// <summary>
     /// Represents day. Day has name, date and list of actions.

@@ -1,6 +1,6 @@
 ﻿using Xunit;
-using SimpleTasksReader.BLL;
 using System;
+using SimpleTasksReader.BLL.Models;
 
 namespace SimpleTasksReader.Tests.Models
 {

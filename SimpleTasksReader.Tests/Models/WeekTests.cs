@@ -1,5 +1,4 @@
-﻿using SimpleTasksReader.BLL;
-using SimpleTasksReader.BLL.Models;
+﻿using SimpleTasksReader.BLL.Models;
 using Xunit;
 
 namespace SimpleTasksReader.Tests.Models
