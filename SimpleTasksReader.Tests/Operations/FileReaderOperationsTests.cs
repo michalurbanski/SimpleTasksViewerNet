@@ -2,7 +2,7 @@
 
 namespace SimpleTasksReader.Tests.Operations
 {
-    public class FileReaderOperations
+    public class FileReaderOperationsTests
     {
         [Fact]
         public void Read_Sample_Data_File()
