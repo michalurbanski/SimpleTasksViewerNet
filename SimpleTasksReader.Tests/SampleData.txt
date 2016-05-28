@@ -1,0 +1,21 @@
+﻿Week 1
+
+Monday 2016-05-23
+- DONE - First action 
+- delayed, - Second action
+- Third action
+
+Tuesday 2016-05-24
+- ABORTED - Tuesday action
+
+Wednesday 2016-05-25
+- delayed, DONE - Wednesday action is done
+
+Thursday 2016-05-26
+
+Friday 2016-05-27
+
+Saturday 2016-05-28
+
+Sunday 2016-05-29
+
